@@ -21,8 +21,10 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## 1、Vue的安装和项目初始化
-### 1.1、npm install vue-cli -g
-### 1.2、vue init webpack project-name
+``` bash
+ 1.1、npm install vue-cli -g
+ 1.2、vue init webpack project-name
+```
 ## 2、引入scss(原本想用stylus，但是为了和element更好融合选择scss)
 2.1、cnpm install node-sass --save-dev
 2.2、cnpm install sass-loader --save-dev
@@ -222,4 +224,3 @@ $--font-path: '~element-ui/lib/theme-chalk/fonts';
         })
       ]
     })
-```
