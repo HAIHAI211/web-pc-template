@@ -19,11 +19,11 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-``` bash
-1、Vue的安装和项目初始化
+
+## 1、Vue的安装和项目初始化
 1.1、npm install vue-cli -g
 1.2、vue init webpack project-name
-2、引入scss(原本想用stylus，但是为了和element更好融合选择scss)
+## 2、引入scss(原本想用stylus，但是为了和element更好融合选择scss)
 2.1、cnpm install node-sass --save-dev
 2.2、cnpm install sass-loader --save-dev
 2.3、为了全局引用mixin.scss和var.scss，安装sass-resources-loader
@@ -40,7 +40,7 @@ if (loader === 'sass' || loader === 'scss') {
     }
   })
 }
-3、引入element-ui
+## 3、引入element-ui
 3.1、cnpm i element-ui -S
 3.2、cnpm install babel-plugin-component -D
 3.3、修改.babelrc配置插件
@@ -204,7 +204,7 @@ $--color-primary: teal;
 /* 改变 icon 字体路径变量，必需 */
 $--font-path: '~element-ui/lib/theme-chalk/fonts';
 @import "~element-ui/packages/theme-chalk/src/index";
-4、引入store
+## 4、引入store
 4.1、cnpm install vuex --save
 4.2、cnpm install vuex-persistedstate --save
 4.3、export default new Vuex.Store({
